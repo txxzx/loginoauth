@@ -1,4 +1,4 @@
-# openauth
+# loginoauth
 主流第三方登录Token授权校验.
 
 ### 功能
@@ -15,7 +15,7 @@
 ### 使用
 
 ```go
-go get github.com/usthooz/openauth
+go get github.com/txxzx/loginoauth
 ```
 
 #### Example
@@ -24,8 +24,8 @@ go get github.com/usthooz/openauth
 package openauth
 
 import (
-	"github.com/usthooz/openauth/facebook"
-	"github.com/usthooz/openauth/google"
+	"github.com/txxzx/loginoauth/facebook"
+	"github.com/txxzx/loginoauth/google"
 	"testing"
 )
 
